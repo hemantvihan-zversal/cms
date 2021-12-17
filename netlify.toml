@@ -1,14 +1,9 @@
 # example netlify.toml
-##[build]
-  ##command = "npm run build"
-  ##functions = "functions"
-  ##publish = "out"
-  [build]
-  command="npm run build"
-  commandOrigin = "config"
-  publish = "/opt/build/repo/out"
-  publishOrigin = "config"
-  functionsDirectory = "/opt/build/repo/functions"
+[build]
+  command = "npm run build"
+  functions = "functions"
+  publish = "out"
+
   
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
